@@ -1,9 +1,9 @@
-public class guessnumber {
+public class guessnumber { // creating a new class 
     Player p1;
     Player p2;
     Player p3;
 
-    public void startGame(){
+    public void startGame(){ // created a new method name startGame.
         p1 = new Player();
         p2 = new Player();
         p3 = new Player();
@@ -16,7 +16,7 @@ public class guessnumber {
         boolean p2isRight = false;
         boolean p3isRight = false;
 
-        int targetNumber = (int) (Math.random()*10);
+        int targetNumber = (int) (Math.random()*10); // to generate a random number for computer.
         System.out.println("I'm thinking of a number between 0 and 9");
 
 
